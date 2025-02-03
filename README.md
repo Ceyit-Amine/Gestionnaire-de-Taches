@@ -1,7 +1,6 @@
-# Todo App
+# Gestionnaire-de-Taches
 
-This project is a simple Todo App built with React. It allows users to add, edit, and delete tasks. The app features a responsive design and uses Font Awesome for icons. Redux is used for state management.
-
+Ce projet est une application simple de gestion de tâches construite avec React. Elle permet aux utilisateurs d'ajouter, de modifier et de supprimer des tâches. L'application présente un design réactif et utilise Font Awesome pour les icônes. Redux est utilisé pour la gestion des états.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
