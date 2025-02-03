@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gestionnaire-de-Taches/static/css/main.4ce35d26.css",
+    "main.js": "/Gestionnaire-de-Taches/static/js/main.fb3ce063.js",
+    "index.html": "/Gestionnaire-de-Taches/index.html",
+    "main.4ce35d26.css.map": "/Gestionnaire-de-Taches/static/css/main.4ce35d26.css.map",
+    "main.fb3ce063.js.map": "/Gestionnaire-de-Taches/static/js/main.fb3ce063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce35d26.css",
+    "static/js/main.fb3ce063.js"
+  ]
+}
