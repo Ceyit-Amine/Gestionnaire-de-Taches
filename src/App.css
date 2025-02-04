@@ -69,43 +69,51 @@ body {
     border-right-color: transparent;
   }
 }
-form {
-  display: flex;
-  font-size: 1.7rem;
-  justify-content: center;
-  margin: 15px 0;
-  padding: 0.8rem;
-  width: 100%;
-}
 
-form input {
-  padding: 10px;
-  font-size: 17px;
-  border: none;
-  outline: none;
-  max-width: 500px;
-  transition: background-color 200ms ease-in-out;
-  width: 100%;
-  background-color: #ffffff;
-  color: #1a150e;
-}
-
-.todo-input-add {
-  border-top-left-radius: 17px;
-  border-bottom-left-radius: 17px;
+  form {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0.8rem;
+    width: 100%;
+  }
   
-}
+  form input {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    max-width: 500px;
+    transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out, border 200ms ease-in-out;
+    width: 100%;
+    background-color: #ffffff;
+    color: #1a150e;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent; 
+  }
+  
+  form input:hover {
+    cursor: text;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  form input:focus {
+    border-bottom: 2px solid #007BFF; 
+    background-color: #e0f7fa; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  form button {
+    padding: 10px;
+    font-size: 17px;
+    min-width: 100px;
+  }
+  
 
-form input:hover {
-  cursor: text;
-  background-color: #f0f0f0;
-}
 
-form button {
-  padding: 10px;
-  font-size: 17px;
-  min-width: 100px;
-}
 
 #datetime {
   font-size: 1.2rem;
@@ -140,6 +148,11 @@ form button {
   background-color: #f0f0f0;
 }
 
+.search-input:focus {
+  border-bottom: 2px solid #007BFF; 
+  background-color: #e0f7fa; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
 .filter-buttons {
   display: flex;
   justify-content: center;
@@ -154,17 +167,17 @@ form button {
   border-radius: 15px;
   cursor: pointer;
   background-color: #ffffff;
-  color: #1a150e;
+  color: #292520;
   transition: background-color 200ms ease-in-out;
 }
 
 .filter-button:hover {
-  background-color: rgb(128, 218, 243);
+  background-color: #6ca9ea;
 }
 
 .filter-button.active {
   background-color: rgb(247, 226, 223);
-  color: rgb(0, 0, 0);
+  color: rgb(225, 171, 171);
 }
 
 input,
@@ -288,7 +301,7 @@ button {
   color: #ffffff;
 }
 
-.filter-button:hover,
+
 .save-btn:hover,
 .cancel-btn:hover {
   background-color: #1a150e;
