@@ -6,17 +6,11 @@ Ce projet est une application simple de gestion de tâches construite avec React
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
 - [Integrating Font Awesome](#integrating-font-awesome)
 - [Setting Up Redux](#setting-up-redux)
 
-## Getting Started
-
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine. You can download them from the [Node.js official website](https://nodejs.org/).
 
 ### Installation
 
@@ -24,3 +18,8 @@ Make sure you have Node.js and npm installed on your machine. You can download t
    ```sh
    git clone https://github.com/yourusername/todo-app.git
    cd todo-app
+   npm install
+   npm install redux react-redux
+   npm install react-redux
+   npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+   
